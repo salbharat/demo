@@ -1,0 +1,25 @@
+@mixin border-radius($radius){
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin transition{
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+@mixin di-block{
+    display: inline-block;
+}
+
+@mixin valgin-top{
+    vertical-align: top;
+}
+
+@mixin valign-middle {
+    vertical-align: middle;
+    
+}

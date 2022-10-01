@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+        list-style-type: circle;
+        background-color: green;
+        a{
+            // color: white;
+            // color: $white;
+            color: $pink;
+
+        }
+    }
+}
+h2{
+    font-size: $h2fontsize;
+}

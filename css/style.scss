@@ -1,0 +1,20 @@
+@import "../css/sass/variable";
+@import "../css/sass/_mixin";
+
+@import "../css/sass/reusable";
+
+
+li{
+    @include border-radius(5px);
+    @include transition();
+}
+li:nth-child(2){
+    @include border-radius(55px);
+}
+.di-block{
+    @include di-block();
+    h2{
+        color: $pink;
+    }
+
+}
