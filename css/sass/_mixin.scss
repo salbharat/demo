@@ -3,7 +3,7 @@
     border-radius: $radius;
 }
 
-@mixin transition{
+@mixin transition {
     -webkit-transition: all 0.5s ease-in;
     -moz-transition: all 0.5s ease-in;
     -o-transition: all 0.5s ease-in;
